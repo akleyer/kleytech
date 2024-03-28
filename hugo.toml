@@ -6,3 +6,11 @@ theme = 'spectral'
 [params]
 fancyTitle = "Kleytech"
 description = 'Alec Kleyer <br />Maxim Kleyer'
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
