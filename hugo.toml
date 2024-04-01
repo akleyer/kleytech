@@ -1,8 +1,157 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Kleytech'
-theme = 'spectral'
+baseURL = "/"
+title = "KleyTech"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
 
 [params]
-fancyTitle = "Kleytech"
+fancyTitle = "Kleytech" # title for frontpage, may include image
+copyright = "Kleytech"
 description = 'Alec Kleyer <br />Maxim Kleyer'
+# startbuttonText = "Activate"
+# startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[params.one]
+enable = true
+title = 'Who Are We'
+body = '''
+A couple stud muffins
+'''
+
+# [[params.one.icon]]
+# icon = "fa-gem"
+# style = "1"
+# label = "Lorem"
+#
+# [[params.one.icon]]
+# icon = "fa-heart"
+# style = "2"
+# label = "Ipsum"
+#
+# [[params.one.icon]]
+# icon = "solid fa-code"
+# style = "3"
+# label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Alec Kleyer<br />Co-Founder'
+body = 'Stud muffin.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Maxim Kleyer<br />Co-Founder'
+body = 'Little stud muffin.'
+
+# [[params.two.section]]
+# img = "img/pic03.jpg"
+# title = 'Magna primis lobortis<br />sed ullamcorper'
+# body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'Portfolio'
+body = '''
+Stuff done by us stuf muffins
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Project 1"
+body = "Blah Blah Blah."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Project 2"
+body = "Blah Blah Blah."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Project 3"
+body = "Blah Blah Blah."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Project 4"
+body = "Blah Blah Blah."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Project 5"
+body = "Blah Blah Blah."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Project 6"
+body = "Blah Blah Blah."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+# [[params.cta.link]]
+# href = "#"
+# text = "Activate"
+# special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
