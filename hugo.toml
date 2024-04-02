@@ -59,12 +59,19 @@ enable = true
 img = "img/alec.png"
 # img_alt = "blurry background: white/grey"
 title = 'Alec Kleyer<br />Co-Founder'
-body = 'Stud muffin.'
+body = '''
+Battle-tested DevOps engineer with a laser focus on building rock-solid, scalable infrastructure.
+I wield the power of my AWS certifications (Infrastructure Engineer & Kubernetes Administrator) to help businesses conquer their cloud challenges.
+With several years of experience in the trenches alongside cutting-edge Fintech firms, Crypto companies, and Wall Street giants, I've seen (and solved) it all.
+'''
 
 [[params.two.section]]
 img = "img/maxim.png"
 title = 'Maxim Kleyer<br />Co-Founder'
-body = 'Little stud muffin.'
+body = '''
+Software developer with a passion for pushing the boundaries of non-invasive health monitoring.
+By day, I lead the web design team at Kleytech, ensuring our results are top quality for our clients.
+By night, I'm engrossed in building a revolutionary software tool for remote heart rate measurement.'''
 
 # [[params.two.section]]
 # img = "img/pic03.jpg"
@@ -73,40 +80,40 @@ body = 'Little stud muffin.'
 
 [params.three]
 enable = true
-title = 'Portfolio'
+title = 'Services'
 body = '''
-Stuff done by us stuf muffins
+
 '''
 
 [[params.three.feature]]
 icon = "fa-paper-plane"
-title = "Project 1"
-body = "Blah Blah Blah."
+title = "Web Development"
+body = "We'll build a website for you, and hand deliver the source code."
 
 [[params.three.feature]]
 icon = "solid fa-laptop"
-title = "Project 2"
-body = "Blah Blah Blah."
-
-[[params.three.feature]]
-icon = "solid fa-code"
-title = "Project 3"
-body = "Blah Blah Blah."
-
-[[params.three.feature]]
-icon = "solid fa-headphones-alt"
-title = "Project 4"
-body = "Blah Blah Blah."
-
-[[params.three.feature]]
-icon = "fa-heart"
-title = "Project 5"
-body = "Blah Blah Blah."
-
-[[params.three.feature]]
-icon = "fa-flag"
-title = "Project 6"
-body = "Blah Blah Blah."
+title = "Web Hosting"
+body = "Have a website? We'll host, manage, and update it."
+#
+# [[params.three.feature]]
+# icon = "solid fa-code"
+# title = "Project 3"
+# body = "Blah Blah Blah."
+#
+# [[params.three.feature]]
+# icon = "solid fa-headphones-alt"
+# title = "Project 4"
+# body = "Blah Blah Blah."
+#
+# [[params.three.feature]]
+# icon = "fa-heart"
+# title = "Project 5"
+# body = "Blah Blah Blah."
+#
+# [[params.three.feature]]
+# icon = "fa-flag"
+# title = "Project 6"
+# body = "Blah Blah Blah."
 
 [params.cta]
 enable = false
