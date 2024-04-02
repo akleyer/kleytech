@@ -56,13 +56,13 @@ A couple stud muffins
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-img_alt = "blurry background: white/grey"
+img = "img/alec.png"
+# img_alt = "blurry background: white/grey"
 title = 'Alec Kleyer<br />Co-Founder'
 body = 'Stud muffin.'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
+img = "img/maxim.png"
 title = 'Maxim Kleyer<br />Co-Founder'
 body = 'Little stud muffin.'
 
